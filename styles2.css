@@ -1,0 +1,513 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+
+ body {
+    min-height: 100vh;
+    background-image: url(design1_image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+body ::before {
+    content: "";
+    background: linear-gradient(rgba(12, 18, 34, 0.75), rgba(32, 38, 55, 0.75));
+    position: absolute;
+    opacity: 6;
+}
+
+.menu{
+    display: inline;
+    height: 5px;
+}
+
+.color {
+    margin-top: 5px;
+    margin-right: 5px;
+    background: #e9ce8f;
+    color: rgb(166, 32, 32);
+    border: 1.8px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px black;
+    text-decoration: none;
+}
+
+
+aside {
+    display: inline;
+    float: left;
+    height: 100px;
+    margin-right: 800px;
+    margin-top: 0;
+}
+
+
+ol {
+    margin-top: 15px;
+    align-items: stretch;
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.title {
+    background: rgb(239, 236, 218);
+    opacity: .8;
+    width: 100%;
+    margin-top: 50px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: cursive;
+}
+
+.proximo {
+    background: rgb(157, 103, 103);
+    width: 210px;
+    border-radius: 15px;
+    margin-top: 50px;
+    justify-content: center;
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+    margin-left: 140px;
+}
+
+.event {
+    background: whitesmoke;
+    border: radius 15px;
+    margin-top: 45px;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    font-size: 12px;
+}
+
+.acerca {
+    background: rgb(157, 103, 103);
+    width: 110px;
+    border-radius: 15px;
+    margin-top: 50px;
+    justify-content: center;
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+    margin-top: 20px;
+    margin-left: 600px;
+}
+
+.about {
+    background: whitesmoke;
+    border: radius 15px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: cursive;
+}
+
+.contact {
+    background: rgb(157, 103, 103);
+    width: 110px;
+    border-radius: 15px;
+    margin-top: 50px;
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.mail {
+    background: whitesmoke;
+    border: radius 15px;
+    margin-top: 55px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.rules {
+    background: rgb(157, 103, 103);
+    width: 310px;
+    border-radius: 15px;
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+    margin-top: 15px;
+    margin-left: 460px;
+}
+
+p {
+    text-align: center;
+}
+
+li {
+    list-style-type: lower-alpha;
+}
+
+.number {
+    list-style-type: decimal;
+}
+
+.list {
+    background: whitesmoke;
+    border: radius 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.information {
+    background: rgb(157, 103, 103);
+    width: 170px;
+    border-radius: 15px;
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+    margin-left: 575px;
+}
+
+.table {
+    background: whitesmoke;
+    border: radius 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+table {
+    padding: 4px;
+}
+
+th {
+width: 400px;
+height: 40px;
+}
+
+td {
+    text-align: center;
+    font-size: 12px;
+    height: 25px;
+}
+
+.additional {
+    background: whitesmoke;
+    border: radius 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 17px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    text-align: justify;
+}
+
+.inf {
+text-align: justify;
+margin: 10px;
+}
+
+.footer {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    margin-top: 570px;
+    width: 100%;
+    height: 15px;
+}
+
+.container-form {
+    background-color: azure;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.text {
+    margin:0 auto;
+    padding: 12px;
+    margin-left: 400px;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid black;
+    margin-top: 43px;
+    margin-left: 10px;
+}
+
+.personal input {
+    margin-top: 3px;
+}
+.form {
+    text-align: center;
+}
+.personal {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.direction { 
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: left;
+    flex-wrap: wrap;
+
+}
+
+.birthday {
+    justify-content: left;
+    text-align: left;
+    margin-top: -40px;
+}
+
+.birthday input {
+    margin-top: -80px;
+    margin-left: 180px;
+text-align: center;
+}
+
+.gender {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 65px;
+    padding: 3px;
+    margin-top: -40px;
+}
+
+.gender input {
+    margin-top: 2px;
+    margin-left: 10px;
+text-align: center;
+}
+
+
+.grade {
+    padding: 1px;
+    margin-top: 2px;
+    flex-direction: initial;
+}
+
+.school {
+    padding: 5px;
+    margin-top: 6px;
+}
+
+.position {
+    padding: 5px;
+    margin-top: 6px;
+}
+
+.size {
+    padding: 5px;
+    margin-top: 6px;
+}
+
+h4 {
+    display: flex;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+button {
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+    margin-top: 40px;
+    transform: rotate(-1.5deg);
+    -webkit-transform: rotate(-1.5deg);
+    -moz-transform: rotate(-1.5deg);
+    -ms-transform: rotate(-1.5deg);
+    -o-transform: rotate(-1.5deg);
+}
+  
+  button:after {
+    content: " ;)";
+  }
+  
+  button:hover, button:focus {
+    outline: none;
+    background: #9f9f7b;
+    color: #56572e;
+  }
+
+
+
+@media (max-width: 768px){
+    .navbar {
+        position: absolute;
+        width: 100%;
+        right: 0;
+        left: 0;
+    }
+
+    aside {
+        margin-right: 295px;
+    }
+
+    .color {
+        font-size: 16px;
+    }
+
+    .title {
+        margin-top: 100px;
+        font-size: 25px;
+    }
+
+    .proximo {
+        margin-top: 40px;
+        margin-left: 90px;
+        padding: 6px;
+        text-align: center;
+    }
+
+    .acerca {
+        margin-top: 40px;
+        margin-left: 330px;
+        padding: 6px;
+        text-align: center;
+    }
+
+    .information {
+        margin-top: 40px;
+        margin-left: 300px;
+        padding: 6px;
+        text-align: center;
+    }
+
+    .rules {
+        margin-top: 40px;
+        margin-left: 220px;
+        padding: 6px;
+        text-align: center;
+    }
+
+    .contact {
+        margin-top: 40px;
+        margin-left: 80px;
+        padding: 6px;
+        text-align: center;
+    }
+
+    .footer {
+        margin-top: 670px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .navbar {
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .menu{
+        margin-right: 0;
+    }
+
+    aside {
+        margin-left: 10px;
+        margin-right: 50px;
+    }
+
+    .color {
+        font-size: 16px;
+    }
+
+    .title {
+        margin-top: 100px;
+        font-size: 25px;
+    }
+
+    .proximo {
+        margin-top: 40px;
+        margin-left: 90px;
+        padding: 6px;
+        text-align: center;
+    }
+
+    .acerca {
+        margin-top: 40px;
+        margin-left: 170px;
+        padding: 6px;
+        text-align: center;
+    }
+
+    .information {
+        margin-top: 40px;
+        margin-left: 150px;
+        padding: 6px;
+        text-align: center;
+    }
+
+    .rules {
+        margin-top: 40px;
+        margin-left: 80px;
+        padding: 6px;
+        text-align: center;
+    }
+
+    .contact {
+        margin-top: 40px;
+        margin-left: 80px;
+        padding: 6px;
+        text-align: center;
+    }
+
+    .footer {
+        margin-top: 720px;
+    }
+}
+
+
+
